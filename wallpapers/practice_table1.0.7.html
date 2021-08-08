@@ -1,0 +1,100 @@
+<!-- Use the HTML <table> element to define a table
+1:Use the HTML <tr> element to define a table row
+2:Use the HTML <td> element to define a table data
+3:Use the HTML <th> element to define a table heading
+4:Use the HTML <caption> element to define a table caption
+5:Use the CSS border property to define a border
+6:Use the CSS border-collapse property to collapse cell borders
+7:Use the CSS padding property to add padding to cells
+8:Use the CSS text-align property to align cell text
+9:Use the CSS border-spacing property to set the spacing between cells
+10:Use the colspan attribute to make a cell span many columns
+11:Use the rowspan attribute to make a cell span many rows
+12:Use the id attribute to uniquely define one table -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice on Tables</title>
+    <style>
+        h1{
+            text-align: center;
+            border: 7px solid red;
+            border-radius: 18px;
+        }
+        h2{
+            text-align: center;
+            
+        }
+        td{
+            /* text-decoration: rgba(0, 255, 191, 0.829) 6px solid underline; */
+            padding: 40px;
+            
+
+        }
+        table,tr,th,td{
+            border: solid 3px rgb(128, 0, 0);
+            border-collapse: collapse;
+            
+            
+            
+        }
+    #exalter th {
+            background-color: black;
+            color: white;
+            padding: 20px;
+    }
+    #official th{
+        padding: 20px;
+    }
+          
+    </style>
+
+</head>
+<body>
+    <h1>The Exarth Family</h1>
+    <h2>The Exalter Of Exarth </h2>
+    <table style="width: 100%;">
+        <caption>The Exalter Of Exarth</caption>
+        <tr id="exalter">
+            <th> CEO</th>
+            <th>CTO</th>
+            <th>COOD</th>
+    
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 0, 0);"><h2>ALi TAriq</h2></td>
+            <td style="background-color: rgb(255, 0, 0);"><h2>IKram KHan</h2></td>
+            <td style="background-color: rgb(255, 0, 0);"><h2>TAlal BHai</h2></td>
+        </tr>
+
+    </table>
+    <h2>The Offical Member of Exarth</h2>
+    <table style="width: 100%; background-color: black;color: white;">
+        <tr id="official">
+            <th> Acting CTO</th>
+            <th>Testing Officer</th>
+            <th>Human Resource Manger</th>
+            <th>Acting CEO</th>
+            <th>Marketing Head</th>
+            <th>project Manger</th>
+    
+        </tr>
+        <tr>
+            <td style="background-color: greenyellow;">Junaid Khan</td>
+            <td style="background-color: rgb(255, 0, 0);">Salman Qasim</td>
+            <td style="background-color: rgb(47, 161, 255);">Muhammad Sheraz</td>
+            <td style="background-color: rgb(92, 47, 255);">Muhammad Waseem</td>
+            <td style="background-color: rgb(255, 47, 227);">Zahida Shahid </td>
+            <td style="background-color: rgb(255, 47, 203);">Laiba Zarshad</td>
+        </tr>
+
+    </table>
+
+    
+</body>
+</html>
